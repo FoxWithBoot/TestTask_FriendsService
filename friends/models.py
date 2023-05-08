@@ -54,9 +54,9 @@ class User(AbstractUser):
     def add_request_friendship(self, user):
         """Отправить заявку в друзья"""
         if Friendship.objects.filter(friend1=self, friend2=user, status=FRIEND):
-            return Friendship.objects.get(friend1=self, friend2=user, status=FRIEND), 304
+            return Friendship.objects.get(friend1=self, friend2=user, status=FRIEND), 208
         if Friendship.objects.filter(friend1=self, friend2=user, status=OUTGOING_REQUEST):
-            return Friendship.objects.get(friend1=self, friend2=user, status=OUTGOING_REQUEST), 304
+            return Friendship.objects.get(friend1=self, friend2=user, status=OUTGOING_REQUEST), 208
         if Friendship.objects.filter(friend1=self, friend2=user, status=INCOMING_REQUEST):
             Friendship.objects.filter(friend1__in=[self, user], friend2__in=[user, self]).update(status=FRIEND)
             return Friendship.objects.get(friend1=self, friend2=user, status=FRIEND), 200

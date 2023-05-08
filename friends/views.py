@@ -32,7 +32,7 @@ class FriendsViewSet(mixins.ListModelMixin,
 
     @swagger_auto_schema(responses={status.HTTP_200_OK: FriendshipSerializer(),
                                     status.HTTP_201_CREATED: FriendshipSerializer(),
-                                    status.HTTP_304_NOT_MODIFIED: FriendshipSerializer()})
+                                    status.HTTP_208_ALREADY_REPORTED: FriendshipSerializer()})
     def create(self, request, *args, **kwargs):
         """Отправить заявку в друзья"""
         ser = FriendshipSerializer(data=request.data)
