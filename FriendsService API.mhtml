@@ -1,22 +1,22 @@
 From: <Saved by Blink>
 Snapshot-Content-Location: http://127.0.0.1:8000/swagger/
 Subject: FriendsService API
-Date: Mon, 8 May 2023 08:14:11 -0000
+Date: Mon, 8 May 2023 17:44:08 -0000
 MIME-Version: 1.0
 Content-Type: multipart/related;
 	type="text/html";
-	boundary="----MultipartBoundary--eyymtW3vjDikGO62TR71AJHJjNoxEFmoOEqAhXBRxa----"
+	boundary="----MultipartBoundary--zAXzl0pogmjZaSPA1J8m28jpkq1HRrDEq0XJmJ7ryZ----"
 
 
-------MultipartBoundary--eyymtW3vjDikGO62TR71AJHJjNoxEFmoOEqAhXBRxa----
+------MultipartBoundary--zAXzl0pogmjZaSPA1J8m28jpkq1HRrDEq0XJmJ7ryZ----
 Content-Type: text/html
-Content-ID: <frame-34EE370FCEBCB0AAB1D4FABAB5A18AE3@mhtml.blink>
+Content-ID: <frame-52AEFC79CC62A73BB7CBCEFEB18012B0@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 Content-Location: http://127.0.0.1:8000/swagger/
 
 <!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
 t/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D=
-"cid:css-ac4b45f7-d876-4bf1-b15c-e4bbb3cecaee@mhtml.blink" />
+"cid:css-76371611-b8b0-45e0-96e8-64fa6860bb8c@mhtml.blink" />
    =20
     <title>FriendsService API</title>
 
@@ -388,48 +388,54 @@ class=3D"">
 
            =20
                =20
+                    <div class=3D"hello">
+                        <span class=3D"django-session">Django</span> <span =
+class=3D"label label-primary">admin</span>
+                    </div>
+               =20
            =20
 
            =20
                 <div class=3D"btn authorize">
                     <a id=3D"auth" class=3D"header__btn" href=3D"http://127=
-.0.0.1:8000/accounts/login/?next=3D/swagger/" data-sw-translate=3D"">
+.0.0.1:8000/accounts/logout/?next=3D/swagger/" data-sw-translate=3D"">
                        =20
-                            Django Login
+                            Django Logout
                        =20
                     </a>
                 </div>
            =20
        =20
-    </div><button class=3D"btn authorize locked"><span>Authorize</span><svg=
- width=3D"20" height=3D"20"><use href=3D"#locked" xlink:href=3D"#locked"></=
-use></svg></button></div></section></div><div><div class=3D"filter-containe=
-r"><section class=3D"filter wrapper block col-12"><input class=3D"operation=
--filter-input" placeholder=3D"Filter by tag" type=3D"text" value=3D""></sec=
-tion></div></div><div class=3D"wrapper"><section class=3D"block col-12 bloc=
-k-desktop col-12-desktop"><div><span><div class=3D"opblock-tag-section is-o=
-pen"><h3 class=3D"opblock-tag no-desc" id=3D"operations-tag-friends" data-t=
-ag=3D"friends" data-is-open=3D"true"><a class=3D"nostyle"><span>friends</sp=
-an></a><small></small><div></div><button aria-expanded=3D"true" class=3D"ex=
-pand-operation" title=3D"Collapse operation"><svg class=3D"arrow" width=3D"=
-20" height=3D"20" aria-hidden=3D"true" focusable=3D"false"><use href=3D"#la=
-rge-arrow-up" xlink:href=3D"#large-arrow-up"></use></svg></button></h3><div=
- class=3D"no-margin"> <div class=3D"operation-tag-content"><span><div class=
-=3D"opblock opblock-get is-open" id=3D"operations-friends-friends_list"><di=
-v class=3D"opblock-summary opblock-summary-get"><button aria-label=3D"get =
-=E2=80=8B/friends=E2=80=8B/" aria-expanded=3D"true" class=3D"opblock-summar=
-y-control"><span class=3D"opblock-summary-method">GET</span><span class=3D"=
-opblock-summary-path" data-path=3D"/friends/"><a class=3D"nostyle"><span>/f=
-riends<wbr>/</span></a></span><div class=3D"opblock-summary-description"></=
-div><span class=3D"opblock-summary-operation-id">friends_list</span><svg cl=
-ass=3D"arrow" width=3D"20" height=3D"20" aria-hidden=3D"true" focusable=3D"=
-false"><use href=3D"#large-arrow-up" xlink:href=3D"#large-arrow-up"></use><=
-/svg></button><button class=3D"authorization__btn locked" aria-label=3D"aut=
-horization button locked"><svg width=3D"20" height=3D"20"><use href=3D"#loc=
-ked" xlink:href=3D"#locked"></use></svg></button></div><div class=3D"no-mar=
-gin"> <div class=3D"opblock-body"><div class=3D"opblock-description-wrapper=
-"><div class=3D"opblock-description"><div class=3D"markdown"><p>=D0=A1=D0=
-=BF=D0=B8=D1=81=D0=BE=D0=BA =D0=B4=D1=80=D1=83=D0=B7=D0=B5=D0=B9</p>
+    </div><button class=3D"btn authorize unlocked"><span>Authorize</span><s=
+vg width=3D"20" height=3D"20"><use href=3D"#unlocked" xlink:href=3D"#unlock=
+ed"></use></svg></button></div></section></div><div><div class=3D"filter-co=
+ntainer"><section class=3D"filter wrapper block col-12"><input class=3D"ope=
+ration-filter-input" placeholder=3D"Filter by tag" type=3D"text" value=3D""=
+></section></div></div><div class=3D"wrapper"><section class=3D"block col-1=
+2 block-desktop col-12-desktop"><div><span><div class=3D"opblock-tag-sectio=
+n is-open"><h3 class=3D"opblock-tag no-desc" id=3D"operations-tag-friends" =
+data-tag=3D"friends" data-is-open=3D"true"><a class=3D"nostyle"><span>frien=
+ds</span></a><small></small><div></div><button aria-expanded=3D"true" class=
+=3D"expand-operation" title=3D"Collapse operation"><svg class=3D"arrow" wid=
+th=3D"20" height=3D"20" aria-hidden=3D"true" focusable=3D"false"><use href=
+=3D"#large-arrow-up" xlink:href=3D"#large-arrow-up"></use></svg></button></=
+h3><div class=3D"no-margin"> <div class=3D"operation-tag-content"><span><di=
+v class=3D"opblock opblock-get is-open" id=3D"operations-friends-friends_li=
+st"><div class=3D"opblock-summary opblock-summary-get"><button aria-label=
+=3D"get =E2=80=8B/friends=E2=80=8B/" aria-expanded=3D"true" class=3D"opbloc=
+k-summary-control"><span class=3D"opblock-summary-method">GET</span><span c=
+lass=3D"opblock-summary-path" data-path=3D"/friends/"><a class=3D"nostyle">=
+<span>/friends<wbr>/</span></a></span><div class=3D"opblock-summary-descrip=
+tion"></div><span class=3D"opblock-summary-operation-id">friends_list</span=
+><svg class=3D"arrow" width=3D"20" height=3D"20" aria-hidden=3D"true" focus=
+able=3D"false"><use href=3D"#large-arrow-up" xlink:href=3D"#large-arrow-up"=
+></use></svg></button><button class=3D"authorization__btn unlocked" aria-la=
+bel=3D"authorization button unlocked"><svg width=3D"20" height=3D"20"><use =
+href=3D"#unlocked" xlink:href=3D"#unlocked"></use></svg></button></div><div=
+ class=3D"no-margin"> <div class=3D"opblock-body"><div class=3D"opblock-des=
+cription-wrapper"><div class=3D"opblock-description"><div class=3D"markdown=
+"><p>=D0=A1=D0=BF=D0=B8=D1=81=D0=BE=D0=BA =D0=B4=D1=80=D1=83=D0=B7=D0=B5=D0=
+=B9</p>
 </div></div></div><div class=3D"opblock-section"><div class=3D"opblock-sect=
 ion-header"><div class=3D"tab-header"><h4 class=3D"opblock-title">Parameter=
 s</h4></div><div class=3D"try-out"><button class=3D"btn try-out__btn">Try i=
@@ -449,13 +455,13 @@ ol_description">Description</td></tr></thead><tbody><tr class=3D"response "=
  data-code=3D"200"><td class=3D"response-col_status">200</td><td class=3D"r=
 esponse-col_description"><div class=3D"response-col_description__inner"></d=
 iv><div class=3D"model-example"><ul class=3D"tab" role=3D"tablist"><li clas=
-s=3D"tabitem" role=3D"presentation"><button aria-controls=3D"f8iGWGY=3D" ar=
-ia-selected=3D"false" class=3D"tablinks" data-name=3D"example" id=3D"ZvQdZD=
-Q=3D" role=3D"tab">Example Value</button></li><li class=3D"tabitem active" =
-role=3D"presentation"><button aria-controls=3D"7TENmLk=3D" aria-selected=3D=
-"true" class=3D"tablinks" data-name=3D"model" id=3D"Fq51lRw=3D" role=3D"tab=
-">Model</button></li></ul><div aria-hidden=3D"false" aria-labelledby=3D"Fq5=
-1lRw=3D" data-name=3D"modelPanel" id=3D"7TENmLk=3D" role=3D"tabpanel" tabin=
+s=3D"tabitem" role=3D"presentation"><button aria-controls=3D"CXWzrAs=3D" ar=
+ia-selected=3D"false" class=3D"tablinks" data-name=3D"example" id=3D"8qa1SY=
+c=3D" role=3D"tab">Example Value</button></li><li class=3D"tabitem active" =
+role=3D"presentation"><button aria-controls=3D"DytQA9o=3D" aria-selected=3D=
+"true" class=3D"tablinks" data-name=3D"model" id=3D"h6eNi1s=3D" role=3D"tab=
+">Model</button></li></ul><div aria-hidden=3D"false" aria-labelledby=3D"h6e=
+Ni1s=3D" data-name=3D"modelPanel" id=3D"DytQA9o=3D" role=3D"tabpanel" tabin=
 dex=3D"0"><div class=3D"model-box"><span class=3D"model"><span class=3D""><=
 button aria-expanded=3D"true" class=3D"model-box-control"><span class=3D"mo=
 del-toggle"></span></button>[<span><span class=3D"model"><span class=3D""><=
@@ -494,13 +500,13 @@ ock-summary-description"></div><span class=3D"opblock-summary-operation-id"=
 >friends_create</span><svg class=3D"arrow" width=3D"20" height=3D"20" aria-=
 hidden=3D"true" focusable=3D"false"><use href=3D"#large-arrow-up" xlink:hre=
 f=3D"#large-arrow-up"></use></svg></button><button class=3D"authorization__=
-btn locked" aria-label=3D"authorization button locked"><svg width=3D"20" he=
-ight=3D"20"><use href=3D"#locked" xlink:href=3D"#locked"></use></svg></butt=
-on></div><div class=3D"no-margin"> <div class=3D"opblock-body"><div class=
-=3D"opblock-description-wrapper"><div class=3D"opblock-description"><div cl=
-ass=3D"markdown"><p>=D0=9E=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D1=8C =
-=D0=B7=D0=B0=D1=8F=D0=B2=D0=BA=D1=83 =D0=B2 =D0=B4=D1=80=D1=83=D0=B7=D1=8C=
-=D1=8F</p>
+btn unlocked" aria-label=3D"authorization button unlocked"><svg width=3D"20=
+" height=3D"20"><use href=3D"#unlocked" xlink:href=3D"#unlocked"></use></sv=
+g></button></div><div class=3D"no-margin"> <div class=3D"opblock-body"><div=
+ class=3D"opblock-description-wrapper"><div class=3D"opblock-description"><=
+div class=3D"markdown"><p>=D0=9E=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=B8=D1=82=
+=D1=8C =D0=B7=D0=B0=D1=8F=D0=B2=D0=BA=D1=83 =D0=B2 =D0=B4=D1=80=D1=83=D0=B7=
+=D1=8C=D1=8F</p>
 </div></div></div><div class=3D"opblock-section"><div class=3D"opblock-sect=
 ion-header"><div class=3D"tab-header"><h4 class=3D"opblock-title">Parameter=
 s</h4></div><div class=3D"try-out"><button class=3D"btn try-out__btn">Try i=
@@ -513,13 +519,13 @@ data" data-param-in=3D"body"><td class=3D"parameters-col_name"><div class=
 arameter__type">object</div><div class=3D"parameter__deprecated"></div><div=
  class=3D"parameter__in">(body)</div></td><td class=3D"parameters-col_descr=
 iption"><div class=3D"model-example"><ul class=3D"tab" role=3D"tablist"><li=
- class=3D"tabitem" role=3D"presentation"><button aria-controls=3D"y8hu11M=
+ class=3D"tabitem" role=3D"presentation"><button aria-controls=3D"N7FH1g4=
 =3D" aria-selected=3D"false" class=3D"tablinks" data-name=3D"example" id=3D=
-"tiXQGz4=3D" role=3D"tab">Example Value</button></li><li class=3D"tabitem a=
-ctive" role=3D"presentation"><button aria-controls=3D"Gw3rvlw=3D" aria-sele=
-cted=3D"true" class=3D"tablinks" data-name=3D"model" id=3D"nwuq3+w=3D" role=
+"/8UVlGw=3D" role=3D"tab">Example Value</button></li><li class=3D"tabitem a=
+ctive" role=3D"presentation"><button aria-controls=3D"jfwl+X8=3D" aria-sele=
+cted=3D"true" class=3D"tablinks" data-name=3D"model" id=3D"dH25cqI=3D" role=
 =3D"tab">Model</button></li></ul><div aria-hidden=3D"false" aria-labelledby=
-=3D"nwuq3+w=3D" data-name=3D"modelPanel" id=3D"Gw3rvlw=3D" role=3D"tabpanel=
+=3D"dH25cqI=3D" data-name=3D"modelPanel" id=3D"jfwl+X8=3D" role=3D"tabpanel=
 " tabindex=3D"0"><div class=3D"model-box"><span class=3D"model"><span class=
 =3D""><button aria-expanded=3D"true" class=3D"model-box-control"><span clas=
 s=3D"pointer"><span class=3D"model-title"><span class=3D"model-hint">http:/=
@@ -547,13 +553,13 @@ _description">Description</td></tr></thead><tbody><tr class=3D"response " d=
 ata-code=3D"200"><td class=3D"response-col_status">200</td><td class=3D"res=
 ponse-col_description"><div class=3D"response-col_description__inner"></div=
 ><div class=3D"model-example"><ul class=3D"tab" role=3D"tablist"><li class=
-=3D"tabitem" role=3D"presentation"><button aria-controls=3D"NE1VOU4=3D" ari=
-a-selected=3D"false" class=3D"tablinks" data-name=3D"example" id=3D"bC/q+xk=
+=3D"tabitem" role=3D"presentation"><button aria-controls=3D"RZP81Xc=3D" ari=
+a-selected=3D"false" class=3D"tablinks" data-name=3D"example" id=3D"l09FHng=
 =3D" role=3D"tab">Example Value</button></li><li class=3D"tabitem active" r=
-ole=3D"presentation"><button aria-controls=3D"5cIXtuQ=3D" aria-selected=3D"=
-true" class=3D"tablinks" data-name=3D"model" id=3D"8VeelxA=3D" role=3D"tab"=
->Model</button></li></ul><div aria-hidden=3D"false" aria-labelledby=3D"8Vee=
-lxA=3D" data-name=3D"modelPanel" id=3D"5cIXtuQ=3D" role=3D"tabpanel" tabind=
+ole=3D"presentation"><button aria-controls=3D"6jWcHt4=3D" aria-selected=3D"=
+true" class=3D"tablinks" data-name=3D"model" id=3D"0pHe0Zg=3D" role=3D"tab"=
+>Model</button></li></ul><div aria-hidden=3D"false" aria-labelledby=3D"0pHe=
+0Zg=3D" data-name=3D"modelPanel" id=3D"6jWcHt4=3D" role=3D"tabpanel" tabind=
 ex=3D"0"><div class=3D"model-box"><span class=3D"model"><span class=3D""><b=
 utton aria-expanded=3D"true" class=3D"model-box-control"><span class=3D"poi=
 nter"><span class=3D"model-title"><span class=3D"model-hint">http://127.0.0=
@@ -588,13 +594,13 @@ r><tr><td>&nbsp;</td></tr></tbody></table></span><span class=3D"brace-close=
  data-code=3D"201"><td class=3D"response-col_status">201</td><td class=3D"r=
 esponse-col_description"><div class=3D"response-col_description__inner"></d=
 iv><div class=3D"model-example"><ul class=3D"tab" role=3D"tablist"><li clas=
-s=3D"tabitem" role=3D"presentation"><button aria-controls=3D"YeJQCwQ=3D" ar=
-ia-selected=3D"false" class=3D"tablinks" data-name=3D"example" id=3D"52ZRN8=
-k=3D" role=3D"tab">Example Value</button></li><li class=3D"tabitem active" =
-role=3D"presentation"><button aria-controls=3D"1wAQWIg=3D" aria-selected=3D=
-"true" class=3D"tablinks" data-name=3D"model" id=3D"s3Jb6jU=3D" role=3D"tab=
-">Model</button></li></ul><div aria-hidden=3D"false" aria-labelledby=3D"s3J=
-b6jU=3D" data-name=3D"modelPanel" id=3D"1wAQWIg=3D" role=3D"tabpanel" tabin=
+s=3D"tabitem" role=3D"presentation"><button aria-controls=3D"k1Uz8PQ=3D" ar=
+ia-selected=3D"false" class=3D"tablinks" data-name=3D"example" id=3D"riJhDQ=
+o=3D" role=3D"tab">Example Value</button></li><li class=3D"tabitem active" =
+role=3D"presentation"><button aria-controls=3D"S/CFXHk=3D" aria-selected=3D=
+"true" class=3D"tablinks" data-name=3D"model" id=3D"Zrl0ICs=3D" role=3D"tab=
+">Model</button></li></ul><div aria-hidden=3D"false" aria-labelledby=3D"Zrl=
+0ICs=3D" data-name=3D"modelPanel" id=3D"S/CFXHk=3D" role=3D"tabpanel" tabin=
 dex=3D"0"><div class=3D"model-box"><span class=3D"model"><span class=3D""><=
 button aria-expanded=3D"true" class=3D"model-box-control"><span class=3D"po=
 inter"><span class=3D"model-title"><span class=3D"model-hint">http://127.0.=
@@ -626,16 +632,16 @@ lass=3D"prop-format">($date-time)</span><span class=3D"property primitive">=
 lass=3D"property primitive"><br>readOnly: true</span></span></span></td></t=
 r><tr><td>&nbsp;</td></tr></tbody></table></span><span class=3D"brace-close=
 ">}</span></span></span></div></div></div></td></tr><tr class=3D"response "=
- data-code=3D"304"><td class=3D"response-col_status">304</td><td class=3D"r=
+ data-code=3D"208"><td class=3D"response-col_status">208</td><td class=3D"r=
 esponse-col_description"><div class=3D"response-col_description__inner"></d=
 iv><div class=3D"model-example"><ul class=3D"tab" role=3D"tablist"><li clas=
-s=3D"tabitem" role=3D"presentation"><button aria-controls=3D"CZI1z7Y=3D" ar=
-ia-selected=3D"false" class=3D"tablinks" data-name=3D"example" id=3D"ItyOgU=
-Y=3D" role=3D"tab">Example Value</button></li><li class=3D"tabitem active" =
-role=3D"presentation"><button aria-controls=3D"Ez+LJGg=3D" aria-selected=3D=
-"true" class=3D"tablinks" data-name=3D"model" id=3D"jpiOuzA=3D" role=3D"tab=
-">Model</button></li></ul><div aria-hidden=3D"false" aria-labelledby=3D"jpi=
-OuzA=3D" data-name=3D"modelPanel" id=3D"Ez+LJGg=3D" role=3D"tabpanel" tabin=
+s=3D"tabitem" role=3D"presentation"><button aria-controls=3D"6QYAatg=3D" ar=
+ia-selected=3D"false" class=3D"tablinks" data-name=3D"example" id=3D"eNfVnt=
+s=3D" role=3D"tab">Example Value</button></li><li class=3D"tabitem active" =
+role=3D"presentation"><button aria-controls=3D"8pFG0i8=3D" aria-selected=3D=
+"true" class=3D"tablinks" data-name=3D"model" id=3D"C6+5aFY=3D" role=3D"tab=
+">Model</button></li></ul><div aria-hidden=3D"false" aria-labelledby=3D"C6+=
+5aFY=3D" data-name=3D"modelPanel" id=3D"8pFG0i8=3D" role=3D"tabpanel" tabin=
 dex=3D"0"><div class=3D"model-box"><span class=3D"model"><span class=3D""><=
 button aria-expanded=3D"true" class=3D"model-box-control"><span class=3D"po=
 inter"><span class=3D"model-title"><span class=3D"model-hint">http://127.0.=
@@ -677,13 +683,13 @@ n class=3D"opblock-summary-method">GET</span><span class=3D"opblock-summary=
 div><span class=3D"opblock-summary-operation-id">friends_read</span><svg cl=
 ass=3D"arrow" width=3D"20" height=3D"20" aria-hidden=3D"true" focusable=3D"=
 false"><use href=3D"#large-arrow-up" xlink:href=3D"#large-arrow-up"></use><=
-/svg></button><button class=3D"authorization__btn locked" aria-label=3D"aut=
-horization button locked"><svg width=3D"20" height=3D"20"><use href=3D"#loc=
-ked" xlink:href=3D"#locked"></use></svg></button></div><div class=3D"no-mar=
-gin"> <div class=3D"opblock-body"><div class=3D"opblock-description-wrapper=
-"><div class=3D"opblock-description"><div class=3D"markdown"><p>=D0=9F=D0=
-=BE=D1=81=D0=BC=D0=BE=D1=82=D1=80=D0=B5=D1=82=D1=8C =D1=81=D1=82=D0=B0=D1=
-=82=D1=83=D1=81 =D0=B4=D1=80=D1=83=D0=B6=D0=B1=D1=8B</p>
+/svg></button><button class=3D"authorization__btn unlocked" aria-label=3D"a=
+uthorization button unlocked"><svg width=3D"20" height=3D"20"><use href=3D"=
+#unlocked" xlink:href=3D"#unlocked"></use></svg></button></div><div class=
+=3D"no-margin"> <div class=3D"opblock-body"><div class=3D"opblock-descripti=
+on-wrapper"><div class=3D"opblock-description"><div class=3D"markdown"><p>=
+=D0=9F=D0=BE=D1=81=D0=BC=D0=BE=D1=82=D1=80=D0=B5=D1=82=D1=8C =D1=81=D1=82=
+=D0=B0=D1=82=D1=83=D1=81 =D0=B4=D1=80=D1=83=D0=B6=D0=B1=D1=8B</p>
 </div></div></div><div class=3D"opblock-section"><div class=3D"opblock-sect=
 ion-header"><div class=3D"tab-header"><h4 class=3D"opblock-title">Parameter=
 s</h4></div><div class=3D"try-out"><button class=3D"btn try-out__btn">Try i=
@@ -711,13 +717,13 @@ ponse-col_description">Description</td></tr></thead><tbody><tr class=3D"res=
 ponse " data-code=3D"200"><td class=3D"response-col_status">200</td><td cla=
 ss=3D"response-col_description"><div class=3D"response-col_description__inn=
 er"></div><div class=3D"model-example"><ul class=3D"tab" role=3D"tablist"><=
-li class=3D"tabitem" role=3D"presentation"><button aria-controls=3D"OV5I7Ug=
+li class=3D"tabitem" role=3D"presentation"><button aria-controls=3D"QhKCso0=
 =3D" aria-selected=3D"false" class=3D"tablinks" data-name=3D"example" id=3D=
-"iWMGxTk=3D" role=3D"tab">Example Value</button></li><li class=3D"tabitem a=
-ctive" role=3D"presentation"><button aria-controls=3D"vw0ogjs=3D" aria-sele=
-cted=3D"true" class=3D"tablinks" data-name=3D"model" id=3D"RVMMX+8=3D" role=
+"ccRcYqQ=3D" role=3D"tab">Example Value</button></li><li class=3D"tabitem a=
+ctive" role=3D"presentation"><button aria-controls=3D"XXroVqI=3D" aria-sele=
+cted=3D"true" class=3D"tablinks" data-name=3D"model" id=3D"2Rk3pmo=3D" role=
 =3D"tab">Model</button></li></ul><div aria-hidden=3D"false" aria-labelledby=
-=3D"RVMMX+8=3D" data-name=3D"modelPanel" id=3D"vw0ogjs=3D" role=3D"tabpanel=
+=3D"2Rk3pmo=3D" data-name=3D"modelPanel" id=3D"XXroVqI=3D" role=3D"tabpanel=
 " tabindex=3D"0"><div class=3D"model-box"><span class=3D"model"><span class=
 =3D""><button aria-expanded=3D"true" class=3D"model-box-control"><span clas=
 s=3D"pointer"><span class=3D"model-title"><span class=3D"model-hint">http:/=
@@ -743,12 +749,12 @@ s=3D"nostyle"><span>/friends<wbr>/{id}<wbr>/</span></a></span><div class=3D=
 n-id">friends_delete</span><svg class=3D"arrow" width=3D"20" height=3D"20" =
 aria-hidden=3D"true" focusable=3D"false"><use href=3D"#large-arrow-up" xlin=
 k:href=3D"#large-arrow-up"></use></svg></button><button class=3D"authorizat=
-ion__btn locked" aria-label=3D"authorization button locked"><svg width=3D"2=
-0" height=3D"20"><use href=3D"#locked" xlink:href=3D"#locked"></use></svg><=
-/button></div><div class=3D"no-margin"> <div class=3D"opblock-body"><div cl=
-ass=3D"opblock-description-wrapper"><div class=3D"opblock-description"><div=
- class=3D"markdown"><p>=D0=A3=D0=B4=D0=B0=D0=BB=D0=B8=D1=82=D1=8C =D0=B4=D1=
-=80=D1=83=D0=B3=D0=B0</p>
+ion__btn unlocked" aria-label=3D"authorization button unlocked"><svg width=
+=3D"20" height=3D"20"><use href=3D"#unlocked" xlink:href=3D"#unlocked"></us=
+e></svg></button></div><div class=3D"no-margin"> <div class=3D"opblock-body=
+"><div class=3D"opblock-description-wrapper"><div class=3D"opblock-descript=
+ion"><div class=3D"markdown"><p>=D0=A3=D0=B4=D0=B0=D0=BB=D0=B8=D1=82=D1=8C =
+=D0=B4=D1=80=D1=83=D0=B3=D0=B0</p>
 </div></div></div><div class=3D"opblock-section"><div class=3D"opblock-sect=
 ion-header"><div class=3D"tab-header"><h4 class=3D"opblock-title">Parameter=
 s</h4></div><div class=3D"try-out"><button class=3D"btn try-out__btn">Try i=
@@ -794,89 +800,96 @@ block-summary-description"></div><span class=3D"opblock-summary-operation-i=
 d">friendship_list</span><svg class=3D"arrow" width=3D"20" height=3D"20" ar=
 ia-hidden=3D"true" focusable=3D"false"><use href=3D"#large-arrow-up" xlink:=
 href=3D"#large-arrow-up"></use></svg></button><button class=3D"authorizatio=
-n__btn locked" aria-label=3D"authorization button locked"><svg width=3D"20"=
- height=3D"20"><use href=3D"#locked" xlink:href=3D"#locked"></use></svg></b=
-utton></div><div class=3D"no-margin"> <div class=3D"opblock-body"><div clas=
-s=3D"opblock-description-wrapper"><div class=3D"opblock-description"><div c=
-lass=3D"markdown"><p>=D0=A1=D0=BF=D0=B8=D1=81=D0=BE=D0=BA =D0=B7=D0=B0=D1=
-=8F=D0=B2=D0=BE=D0=BA</p>
+n__btn unlocked" aria-label=3D"authorization button unlocked"><svg width=3D=
+"20" height=3D"20"><use href=3D"#unlocked" xlink:href=3D"#unlocked"></use><=
+/svg></button></div><div class=3D"no-margin"> <div class=3D"opblock-body"><=
+div class=3D"opblock-description-wrapper"><div class=3D"opblock-description=
+"><div class=3D"markdown"><p>=D0=A1=D0=BF=D0=B8=D1=81=D0=BE=D0=BA =D0=B7=D0=
+=B0=D1=8F=D0=B2=D0=BE=D0=BA</p>
 </div></div></div><div class=3D"opblock-section"><div class=3D"opblock-sect=
 ion-header"><div class=3D"tab-header"><h4 class=3D"opblock-title">Parameter=
 s</h4></div><div class=3D"try-out"><button class=3D"btn try-out__btn">Try i=
 t out </button></div></div><div class=3D"parameters-container"><div class=
-=3D"opblock-description-wrapper"><p>No parameters</p></div></div></div><div=
- class=3D"execute-wrapper"></div><div class=3D"responses-wrapper"><div clas=
-s=3D"opblock-section-header"><h4>Responses</h4><label for=3D"get_friendship=
-__responses_select"><span>Response content type</span><div class=3D"content=
--type-wrapper execute-content-type"><select aria-controls=3D"get_friendship=
-__responses" aria-label=3D"Response content type" class=3D"content-type" id=
-=3D"get_friendship__responses_select"><option value=3D"application/json">ap=
-plication/json</option></select></div></label></div><div class=3D"responses=
--inner"><table aria-live=3D"polite" class=3D"responses-table" id=3D"get_fri=
-endship__responses" role=3D"region"><thead><tr class=3D"responses-header"><=
-td class=3D"col_header response-col_status">Code</td><td class=3D"col_heade=
-r response-col_description">Description</td></tr></thead><tbody><tr class=
-=3D"response " data-code=3D"200"><td class=3D"response-col_status">200</td>=
-<td class=3D"response-col_description"><div class=3D"response-col_descripti=
-on__inner"></div><div class=3D"model-example"><ul class=3D"tab" role=3D"tab=
-list"><li class=3D"tabitem" role=3D"presentation"><button aria-controls=3D"=
-i/JS0+c=3D" aria-selected=3D"false" class=3D"tablinks" data-name=3D"example=
-" id=3D"M/qD7Ls=3D" role=3D"tab">Example Value</button></li><li class=3D"ta=
-bitem active" role=3D"presentation"><button aria-controls=3D"Qok4Vh4=3D" ar=
-ia-selected=3D"true" class=3D"tablinks" data-name=3D"model" id=3D"+e2WnYQ=
-=3D" role=3D"tab">Model</button></li></ul><div aria-hidden=3D"false" aria-l=
-abelledby=3D"+e2WnYQ=3D" data-name=3D"modelPanel" id=3D"Qok4Vh4=3D" role=3D=
-"tabpanel" tabindex=3D"0"><div class=3D"model-box"><span class=3D"model"><s=
-pan class=3D""><button aria-expanded=3D"true" class=3D"model-box-control"><=
-span class=3D"model-toggle"></span></button>[<span><span class=3D"model"><s=
-pan class=3D""><button aria-expanded=3D"true" class=3D"model-box-control"><=
-span class=3D"pointer"><span class=3D"model-title"><span class=3D"model-hin=
-t">http://127.0.0.1:8000/swagger/?format=3Dopenapi#/definitions/Friendship<=
-/span><span class=3D"model-title__text">Friendship</span></span></span><spa=
-n class=3D"model-toggle"></span></button><span class=3D"brace-open object">=
-{</span><span class=3D"model-jump-to-path"></span><span class=3D"inner-obje=
-ct"><table class=3D"model"><tbody><tr class=3D"property-row"><td>id</td><td=
-><span class=3D"model"><span class=3D"prop"><span class=3D"prop-type">integ=
-er</span><span class=3D"property primitive"><br>title: ID</span><span class=
-=3D"property primitive"><br>readOnly: true</span></span></span></td></tr><t=
-r class=3D"property-row required"><td>friend2<span class=3D"star">*</span><=
-/td><td><span class=3D"model"><span class=3D"prop"><span class=3D"prop-type=
-">integer</span><span class=3D"property primitive"><br>title: Friend2</span=
-></span></span></td></tr><tr class=3D"property-row"><td>status</td><td><spa=
-n class=3D"model"><span class=3D"prop"><span class=3D"prop-type">integer</s=
-pan><span class=3D"property primitive"><br>title: =D0=A1=D1=82=D0=B0=D1=82=
-=D1=83=D1=81 =D0=B7=D0=B0=D1=8F=D0=B2=D0=BA=D0=B8 =D0=B2 =D0=B4=D1=80=D1=83=
-=D0=B7=D1=8C=D1=8F</span><span class=3D"property primitive"><br>readOnly: t=
-rue</span><span class=3D"prop-enum">Enum:<br><span class=3D""><button aria-=
-expanded=3D"false" class=3D"model-box-control"><span class=3D"model-toggle =
-collapsed"></span><span><span>Array [ 3 ]</span></span></button></span></sp=
-an></span></span></td></tr><tr class=3D"property-row"><td>send_date</td><td=
-><span class=3D"model"><span class=3D"prop"><span class=3D"prop-type">strin=
-g</span><span class=3D"prop-format">($date-time)</span><span class=3D"prope=
-rty primitive"><br>title: =D0=94=D0=B0=D1=82=D0=B0 =D0=B8 =D0=B2=D1=80=D0=
-=B5=D0=BC=D1=8F =D0=BE=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=BA=D0=B8/=D0=BF=D1=
-=80=D0=B8=D0=BD=D1=8F=D1=82=D0=B8=D1=8F =D0=B7=D0=B0=D1=8F=D0=B2=D0=BA=D0=
-=B8</span><span class=3D"property primitive"><br>readOnly: true</span></spa=
-n></span></td></tr><tr><td>&nbsp;</td></tr></tbody></table></span><span cla=
-ss=3D"brace-close">}</span></span></span></span>]</span></span></div></div>=
-</div></td></tr></tbody></table></div></div></div> </div></div></span><span=
-><div class=3D"opblock opblock-get is-open" id=3D"operations-friendship-fri=
-endship_read"><div class=3D"opblock-summary opblock-summary-get"><button ar=
-ia-label=3D"get =E2=80=8B/friendship=E2=80=8B/{id}=E2=80=8B/" aria-expanded=
-=3D"true" class=3D"opblock-summary-control"><span class=3D"opblock-summary-=
-method">GET</span><span class=3D"opblock-summary-path" data-path=3D"/friend=
-ship/{id}/"><a class=3D"nostyle"><span>/friendship<wbr>/{id}<wbr>/</span></=
-a></span><div class=3D"opblock-summary-description"></div><span class=3D"op=
-block-summary-operation-id">friendship_read</span><svg class=3D"arrow" widt=
-h=3D"20" height=3D"20" aria-hidden=3D"true" focusable=3D"false"><use href=
-=3D"#large-arrow-up" xlink:href=3D"#large-arrow-up"></use></svg></button><b=
-utton class=3D"authorization__btn locked" aria-label=3D"authorization butto=
-n locked"><svg width=3D"20" height=3D"20"><use href=3D"#locked" xlink:href=
-=3D"#locked"></use></svg></button></div><div class=3D"no-margin"> <div clas=
-s=3D"opblock-body"><div class=3D"opblock-description-wrapper"><div class=3D=
-"opblock-description"><div class=3D"markdown"><p>=D0=9F=D1=80=D0=B8=D0=BD=
-=D1=8F=D1=82=D1=8C =D0=B7=D0=B0=D1=8F=D0=B2=D0=BA=D1=83 =D0=B2 =D0=B4=D1=80=
-=D1=83=D0=B7=D1=8C=D1=8F</p>
+=3D"table-container"><table class=3D"parameters"><thead><tr><th class=3D"co=
+l_header parameters-col_name">Name</th><th class=3D"col_header parameters-c=
+ol_description">Description</th></tr></thead><tbody><tr data-param-name=3D"=
+status" data-param-in=3D"query"><td class=3D"parameters-col_name"><div clas=
+s=3D"parameter__name">status</div><div class=3D"parameter__type">string</di=
+v><div class=3D"parameter__deprecated"></div><div class=3D"parameter__in">(=
+query)</div></td><td class=3D"parameters-col_description"><input type=3D"te=
+xt" class=3D"" title=3D"" placeholder=3D"status" disabled=3D"" value=3D""><=
+/td></tr></tbody></table></div></div></div><div class=3D"execute-wrapper"><=
+/div><div class=3D"responses-wrapper"><div class=3D"opblock-section-header"=
+><h4>Responses</h4><label for=3D"get_friendship__responses_select"><span>Re=
+sponse content type</span><div class=3D"content-type-wrapper execute-conten=
+t-type"><select aria-controls=3D"get_friendship__responses" aria-label=3D"R=
+esponse content type" class=3D"content-type" id=3D"get_friendship__response=
+s_select"><option value=3D"application/json">application/json</option></sel=
+ect></div></label></div><div class=3D"responses-inner"><table aria-live=3D"=
+polite" class=3D"responses-table" id=3D"get_friendship__responses" role=3D"=
+region"><thead><tr class=3D"responses-header"><td class=3D"col_header respo=
+nse-col_status">Code</td><td class=3D"col_header response-col_description">=
+Description</td></tr></thead><tbody><tr class=3D"response " data-code=3D"20=
+0"><td class=3D"response-col_status">200</td><td class=3D"response-col_desc=
+ription"><div class=3D"response-col_description__inner"></div><div class=3D=
+"model-example"><ul class=3D"tab" role=3D"tablist"><li class=3D"tabitem" ro=
+le=3D"presentation"><button aria-controls=3D"61cHZBA=3D" aria-selected=3D"f=
+alse" class=3D"tablinks" data-name=3D"example" id=3D"LfaXCYo=3D" role=3D"ta=
+b">Example Value</button></li><li class=3D"tabitem active" role=3D"presenta=
+tion"><button aria-controls=3D"4aatEO8=3D" aria-selected=3D"true" class=3D"=
+tablinks" data-name=3D"model" id=3D"+dL7SJI=3D" role=3D"tab">Model</button>=
+</li></ul><div aria-hidden=3D"false" aria-labelledby=3D"+dL7SJI=3D" data-na=
+me=3D"modelPanel" id=3D"4aatEO8=3D" role=3D"tabpanel" tabindex=3D"0"><div c=
+lass=3D"model-box"><span class=3D"model"><span class=3D""><button aria-expa=
+nded=3D"true" class=3D"model-box-control"><span class=3D"model-toggle"></sp=
+an></button>[<span><span class=3D"model"><span class=3D""><button aria-expa=
+nded=3D"true" class=3D"model-box-control"><span class=3D"pointer"><span cla=
+ss=3D"model-title"><span class=3D"model-hint">http://127.0.0.1:8000/swagger=
+/?format=3Dopenapi#/definitions/Friendship</span><span class=3D"model-title=
+__text">Friendship</span></span></span><span class=3D"model-toggle"></span>=
+</button><span class=3D"brace-open object">{</span><span class=3D"model-jum=
+p-to-path"></span><span class=3D"inner-object"><table class=3D"model"><tbod=
+y><tr class=3D"property-row"><td>id</td><td><span class=3D"model"><span cla=
+ss=3D"prop"><span class=3D"prop-type">integer</span><span class=3D"property=
+ primitive"><br>title: ID</span><span class=3D"property primitive"><br>read=
+Only: true</span></span></span></td></tr><tr class=3D"property-row required=
+"><td>friend2<span class=3D"star">*</span></td><td><span class=3D"model"><s=
+pan class=3D"prop"><span class=3D"prop-type">integer</span><span class=3D"p=
+roperty primitive"><br>title: Friend2</span></span></span></td></tr><tr cla=
+ss=3D"property-row"><td>status</td><td><span class=3D"model"><span class=3D=
+"prop"><span class=3D"prop-type">integer</span><span class=3D"property prim=
+itive"><br>title: =D0=A1=D1=82=D0=B0=D1=82=D1=83=D1=81 =D0=B7=D0=B0=D1=8F=
+=D0=B2=D0=BA=D0=B8 =D0=B2 =D0=B4=D1=80=D1=83=D0=B7=D1=8C=D1=8F</span><span =
+class=3D"property primitive"><br>readOnly: true</span><span class=3D"prop-e=
+num">Enum:<br><span class=3D""><button aria-expanded=3D"true" class=3D"mode=
+l-box-control"><span class=3D"model-toggle"></span></button>[ -1, 1, 0 ]</s=
+pan></span></span></span></td></tr><tr class=3D"property-row"><td>send_date=
+</td><td><span class=3D"model"><span class=3D"prop"><span class=3D"prop-typ=
+e">string</span><span class=3D"prop-format">($date-time)</span><span class=
+=3D"property primitive"><br>title: =D0=94=D0=B0=D1=82=D0=B0 =D0=B8 =D0=B2=
+=D1=80=D0=B5=D0=BC=D1=8F =D0=BE=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=BA=D0=B8/=
+=D0=BF=D1=80=D0=B8=D0=BD=D1=8F=D1=82=D0=B8=D1=8F =D0=B7=D0=B0=D1=8F=D0=B2=
+=D0=BA=D0=B8</span><span class=3D"property primitive"><br>readOnly: true</s=
+pan></span></span></td></tr><tr><td>&nbsp;</td></tr></tbody></table></span>=
+<span class=3D"brace-close">}</span></span></span></span>]</span></span></d=
+iv></div></div></td></tr></tbody></table></div></div></div> </div></div></s=
+pan><span><div class=3D"opblock opblock-get is-open" id=3D"operations-frien=
+dship-friendship_read"><div class=3D"opblock-summary opblock-summary-get"><=
+button aria-label=3D"get =E2=80=8B/friendship=E2=80=8B/{id}=E2=80=8B/" aria=
+-expanded=3D"true" class=3D"opblock-summary-control"><span class=3D"opblock=
+-summary-method">GET</span><span class=3D"opblock-summary-path" data-path=
+=3D"/friendship/{id}/"><a class=3D"nostyle"><span>/friendship<wbr>/{id}<wbr=
+>/</span></a></span><div class=3D"opblock-summary-description"></div><span =
+class=3D"opblock-summary-operation-id">friendship_read</span><svg class=3D"=
+arrow" width=3D"20" height=3D"20" aria-hidden=3D"true" focusable=3D"false">=
+<use href=3D"#large-arrow-up" xlink:href=3D"#large-arrow-up"></use></svg></=
+button><button class=3D"authorization__btn unlocked" aria-label=3D"authoriz=
+ation button unlocked"><svg width=3D"20" height=3D"20"><use href=3D"#unlock=
+ed" xlink:href=3D"#unlocked"></use></svg></button></div><div class=3D"no-ma=
+rgin"> <div class=3D"opblock-body"><div class=3D"opblock-description-wrappe=
+r"><div class=3D"opblock-description"><div class=3D"markdown"><p>=D0=9F=D1=
+=80=D0=B8=D0=BD=D1=8F=D1=82=D1=8C =D0=B7=D0=B0=D1=8F=D0=B2=D0=BA=D1=83 =D0=
+=B2 =D0=B4=D1=80=D1=83=D0=B7=D1=8C=D1=8F</p>
 </div></div></div><div class=3D"opblock-section"><div class=3D"opblock-sect=
 ion-header"><div class=3D"tab-header"><h4 class=3D"opblock-title">Parameter=
 s</h4></div><div class=3D"try-out"><button class=3D"btn try-out__btn">Try i=
@@ -905,12 +918,12 @@ class=3D"response " data-code=3D"200"><td class=3D"response-col_status">200=
 </td><td class=3D"response-col_description"><div class=3D"response-col_desc=
 ription__inner"></div><div class=3D"model-example"><ul class=3D"tab" role=
 =3D"tablist"><li class=3D"tabitem" role=3D"presentation"><button aria-contr=
-ols=3D"/YWzBgE=3D" aria-selected=3D"false" class=3D"tablinks" data-name=3D"=
-example" id=3D"Ivf9jz4=3D" role=3D"tab">Example Value</button></li><li clas=
-s=3D"tabitem active" role=3D"presentation"><button aria-controls=3D"TZlgkEQ=
-=3D" aria-selected=3D"true" class=3D"tablinks" data-name=3D"model" id=3D"2o=
-jQVvM=3D" role=3D"tab">Model</button></li></ul><div aria-hidden=3D"false" a=
-ria-labelledby=3D"2ojQVvM=3D" data-name=3D"modelPanel" id=3D"TZlgkEQ=3D" ro=
+ols=3D"3cJP43M=3D" aria-selected=3D"false" class=3D"tablinks" data-name=3D"=
+example" id=3D"T1ACJ5Y=3D" role=3D"tab">Example Value</button></li><li clas=
+s=3D"tabitem active" role=3D"presentation"><button aria-controls=3D"P4cgJbc=
+=3D" aria-selected=3D"true" class=3D"tablinks" data-name=3D"model" id=3D"ug=
++FSyw=3D" role=3D"tab">Model</button></li></ul><div aria-hidden=3D"false" a=
+ria-labelledby=3D"ug+FSyw=3D" data-name=3D"modelPanel" id=3D"P4cgJbc=3D" ro=
 le=3D"tabpanel" tabindex=3D"0"><div class=3D"model-box"><span class=3D"mode=
 l"><span class=3D""><button aria-expanded=3D"true" class=3D"model-box-contr=
 ol"><span class=3D"pointer"><span class=3D"model-title"><span class=3D"mode=
@@ -931,35 +944,35 @@ er</span><span class=3D"property primitive"><br>title: =D0=A1=D1=82=D0=B0=
 =D1=82=D1=83=D1=81 =D0=B7=D0=B0=D1=8F=D0=B2=D0=BA=D0=B8 =D0=B2 =D0=B4=D1=80=
 =D1=83=D0=B7=D1=8C=D1=8F</span><span class=3D"property primitive"><br>readO=
 nly: true</span><span class=3D"prop-enum">Enum:<br><span class=3D""><button=
- aria-expanded=3D"false" class=3D"model-box-control"><span class=3D"model-t=
-oggle collapsed"></span><span><span>Array [ 3 ]</span></span></button></spa=
-n></span></span></span></td></tr><tr class=3D"property-row"><td>send_date</=
-td><td><span class=3D"model"><span class=3D"prop"><span class=3D"prop-type"=
->string</span><span class=3D"prop-format">($date-time)</span><span class=3D=
-"property primitive"><br>title: =D0=94=D0=B0=D1=82=D0=B0 =D0=B8 =D0=B2=D1=
-=80=D0=B5=D0=BC=D1=8F =D0=BE=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=BA=D0=B8/=D0=
-=BF=D1=80=D0=B8=D0=BD=D1=8F=D1=82=D0=B8=D1=8F =D0=B7=D0=B0=D1=8F=D0=B2=D0=
-=BA=D0=B8</span><span class=3D"property primitive"><br>readOnly: true</span=
-></span></span></td></tr><tr><td>&nbsp;</td></tr></tbody></table></span><sp=
-an class=3D"brace-close">}</span></span></span></div></div></div></td></tr>=
-</tbody></table></div></div></div> </div></div></span><span><div class=3D"o=
-pblock opblock-delete is-open" id=3D"operations-friendship-friendship_delet=
-e"><div class=3D"opblock-summary opblock-summary-delete"><button aria-label=
-=3D"delete =E2=80=8B/friendship=E2=80=8B/{id}=E2=80=8B/" aria-expanded=3D"t=
-rue" class=3D"opblock-summary-control"><span class=3D"opblock-summary-metho=
-d">DELETE</span><span class=3D"opblock-summary-path" data-path=3D"/friendsh=
-ip/{id}/"><a class=3D"nostyle"><span>/friendship<wbr>/{id}<wbr>/</span></a>=
-</span><div class=3D"opblock-summary-description"></div><span class=3D"opbl=
-ock-summary-operation-id">friendship_delete</span><svg class=3D"arrow" widt=
-h=3D"20" height=3D"20" aria-hidden=3D"true" focusable=3D"false"><use href=
-=3D"#large-arrow-up" xlink:href=3D"#large-arrow-up"></use></svg></button><b=
-utton class=3D"authorization__btn locked" aria-label=3D"authorization butto=
-n locked"><svg width=3D"20" height=3D"20"><use href=3D"#locked" xlink:href=
-=3D"#locked"></use></svg></button></div><div class=3D"no-margin"> <div clas=
-s=3D"opblock-body"><div class=3D"opblock-description-wrapper"><div class=3D=
-"opblock-description"><div class=3D"markdown"><p>=D0=9E=D1=82=D0=BA=D0=BB=
-=D0=BE=D0=BD=D0=B8=D1=82=D1=8C =D0=B7=D0=B0=D1=8F=D0=B2=D0=BA=D1=83 =D0=B2 =
-=D0=B4=D1=80=D1=83=D0=B7=D1=8C=D1=8F</p>
+ aria-expanded=3D"true" class=3D"model-box-control"><span class=3D"model-to=
+ggle"></span></button>[ -1, 1, 0 ]</span></span></span></span></td></tr><tr=
+ class=3D"property-row"><td>send_date</td><td><span class=3D"model"><span c=
+lass=3D"prop"><span class=3D"prop-type">string</span><span class=3D"prop-fo=
+rmat">($date-time)</span><span class=3D"property primitive"><br>title: =D0=
+=94=D0=B0=D1=82=D0=B0 =D0=B8 =D0=B2=D1=80=D0=B5=D0=BC=D1=8F =D0=BE=D1=82=D0=
+=BF=D1=80=D0=B0=D0=B2=D0=BA=D0=B8/=D0=BF=D1=80=D0=B8=D0=BD=D1=8F=D1=82=D0=
+=B8=D1=8F =D0=B7=D0=B0=D1=8F=D0=B2=D0=BA=D0=B8</span><span class=3D"propert=
+y primitive"><br>readOnly: true</span></span></span></td></tr><tr><td>&nbsp=
+;</td></tr></tbody></table></span><span class=3D"brace-close">}</span></spa=
+n></span></div></div></div></td></tr></tbody></table></div></div></div> </d=
+iv></div></span><span><div class=3D"opblock opblock-delete is-open" id=3D"o=
+perations-friendship-friendship_delete"><div class=3D"opblock-summary opblo=
+ck-summary-delete"><button aria-label=3D"delete =E2=80=8B/friendship=E2=80=
+=8B/{id}=E2=80=8B/" aria-expanded=3D"true" class=3D"opblock-summary-control=
+"><span class=3D"opblock-summary-method">DELETE</span><span class=3D"opbloc=
+k-summary-path" data-path=3D"/friendship/{id}/"><a class=3D"nostyle"><span>=
+/friendship<wbr>/{id}<wbr>/</span></a></span><div class=3D"opblock-summary-=
+description"></div><span class=3D"opblock-summary-operation-id">friendship_=
+delete</span><svg class=3D"arrow" width=3D"20" height=3D"20" aria-hidden=3D=
+"true" focusable=3D"false"><use href=3D"#large-arrow-up" xlink:href=3D"#lar=
+ge-arrow-up"></use></svg></button><button class=3D"authorization__btn unloc=
+ked" aria-label=3D"authorization button unlocked"><svg width=3D"20" height=
+=3D"20"><use href=3D"#unlocked" xlink:href=3D"#unlocked"></use></svg></butt=
+on></div><div class=3D"no-margin"> <div class=3D"opblock-body"><div class=
+=3D"opblock-description-wrapper"><div class=3D"opblock-description"><div cl=
+ass=3D"markdown"><p>=D0=9E=D1=82=D0=BA=D0=BB=D0=BE=D0=BD=D0=B8=D1=82=D1=8C =
+=D0=B7=D0=B0=D1=8F=D0=B2=D0=BA=D1=83 =D0=B2 =D0=B4=D1=80=D1=83=D0=B7=D1=8C=
+=D1=8F</p>
 </div></div></div><div class=3D"opblock-section"><div class=3D"opblock-sect=
 ion-header"><div class=3D"tab-header"><h4 class=3D"opblock-title">Parameter=
 s</h4></div><div class=3D"try-out"><button class=3D"btn try-out__btn">Try i=
@@ -1005,47 +1018,48 @@ ss=3D"opblock-summary-description"></div><span class=3D"opblock-summary-ope=
 ration-id">register_create</span><svg class=3D"arrow" width=3D"20" height=
 =3D"20" aria-hidden=3D"true" focusable=3D"false"><use href=3D"#large-arrow-=
 up" xlink:href=3D"#large-arrow-up"></use></svg></button><button class=3D"au=
-thorization__btn locked" aria-label=3D"authorization button locked"><svg wi=
-dth=3D"20" height=3D"20"><use href=3D"#locked" xlink:href=3D"#locked"></use=
-></svg></button></div><div class=3D"no-margin"> <div class=3D"opblock-body"=
-><div class=3D"opblock-section"><div class=3D"opblock-section-header"><div =
-class=3D"tab-header"><h4 class=3D"opblock-title">Parameters</h4></div><div =
-class=3D"try-out"><button class=3D"btn try-out__btn">Try it out </button></=
-div></div><div class=3D"parameters-container"><div class=3D"table-container=
-"><table class=3D"parameters"><thead><tr><th class=3D"col_header parameters=
--col_name">Name</th><th class=3D"col_header parameters-col_description">Des=
-cription</th></tr></thead><tbody><tr data-param-name=3D"data" data-param-in=
-=3D"body"><td class=3D"parameters-col_name"><div class=3D"parameter__name r=
-equired">data<span>&nbsp;*</span></div><div class=3D"parameter__type">objec=
-t</div><div class=3D"parameter__deprecated"></div><div class=3D"parameter__=
-in">(body)</div></td><td class=3D"parameters-col_description"><div class=3D=
-"model-example"><ul class=3D"tab" role=3D"tablist"><li class=3D"tabitem" ro=
-le=3D"presentation"><button aria-controls=3D"Ko95vVY=3D" aria-selected=3D"f=
-alse" class=3D"tablinks" data-name=3D"example" id=3D"h2541Ds=3D" role=3D"ta=
-b">Example Value</button></li><li class=3D"tabitem active" role=3D"presenta=
-tion"><button aria-controls=3D"IgjYhvk=3D" aria-selected=3D"true" class=3D"=
-tablinks" data-name=3D"model" id=3D"TMzvbJU=3D" role=3D"tab">Model</button>=
-</li></ul><div aria-hidden=3D"false" aria-labelledby=3D"TMzvbJU=3D" data-na=
-me=3D"modelPanel" id=3D"IgjYhvk=3D" role=3D"tabpanel" tabindex=3D"0"><div c=
-lass=3D"model-box"><span class=3D"model"><span class=3D""><button aria-expa=
-nded=3D"true" class=3D"model-box-control"><span class=3D"pointer"><span cla=
-ss=3D"model-title"><span class=3D"model-hint">http://127.0.0.1:8000/swagger=
-/?format=3Dopenapi#/definitions/UserRegister</span><span class=3D"model-tit=
-le__text">UserRegister</span></span></span><span class=3D"model-toggle"></s=
-pan></button><span class=3D"brace-open object">{</span><span class=3D"model=
--jump-to-path"></span><span class=3D"inner-object"><table class=3D"model"><=
-tbody><tr class=3D"property-row required"><td>username<span class=3D"star">=
-*</span></td><td><span class=3D"model"><span class=3D"prop"><span class=3D"=
-prop-type">string</span><span class=3D"property primitive"><br>title: =D0=
-=98=D0=BC=D1=8F =D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D0=
-=B5=D0=BB=D1=8F</span><span class=3D"property primitive"><br>pattern: ^[\w.=
-@+-]+$</span><span class=3D"property primitive"><br>maxLength: 150</span><s=
-pan class=3D"property primitive"><br>minLength: 1</span><div class=3D"markd=
-own"><p>=D0=9E=D0=B1=D1=8F=D0=B7=D0=B0=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE=
-=D0=B5 =D0=BF=D0=BE=D0=BB=D0=B5. =D0=9D=D0=B5 =D0=B1=D0=BE=D0=BB=D0=B5=D0=
-=B5 150 =D1=81=D0=B8=D0=BC=D0=B2=D0=BE=D0=BB=D0=BE=D0=B2. =D0=A2=D0=BE=D0=
-=BB=D1=8C=D0=BA=D0=BE =D0=B1=D1=83=D0=BA=D0=B2=D1=8B, =D1=86=D0=B8=D1=84=D1=
-=80=D1=8B =D0=B8 =D1=81=D0=B8=D0=BC=D0=B2=D0=BE=D0=BB=D1=8B @/./+/-/_.</p>
+thorization__btn unlocked" aria-label=3D"authorization button unlocked"><sv=
+g width=3D"20" height=3D"20"><use href=3D"#unlocked" xlink:href=3D"#unlocke=
+d"></use></svg></button></div><div class=3D"no-margin"> <div class=3D"opblo=
+ck-body"><div class=3D"opblock-section"><div class=3D"opblock-section-heade=
+r"><div class=3D"tab-header"><h4 class=3D"opblock-title">Parameters</h4></d=
+iv><div class=3D"try-out"><button class=3D"btn try-out__btn">Try it out </b=
+utton></div></div><div class=3D"parameters-container"><div class=3D"table-c=
+ontainer"><table class=3D"parameters"><thead><tr><th class=3D"col_header pa=
+rameters-col_name">Name</th><th class=3D"col_header parameters-col_descript=
+ion">Description</th></tr></thead><tbody><tr data-param-name=3D"data" data-=
+param-in=3D"body"><td class=3D"parameters-col_name"><div class=3D"parameter=
+__name required">data<span>&nbsp;*</span></div><div class=3D"parameter__typ=
+e">object</div><div class=3D"parameter__deprecated"></div><div class=3D"par=
+ameter__in">(body)</div></td><td class=3D"parameters-col_description"><div =
+class=3D"model-example"><ul class=3D"tab" role=3D"tablist"><li class=3D"tab=
+item" role=3D"presentation"><button aria-controls=3D"geNrvKY=3D" aria-selec=
+ted=3D"false" class=3D"tablinks" data-name=3D"example" id=3D"Sw3XZio=3D" ro=
+le=3D"tab">Example Value</button></li><li class=3D"tabitem active" role=3D"=
+presentation"><button aria-controls=3D"2AzQ7gA=3D" aria-selected=3D"true" c=
+lass=3D"tablinks" data-name=3D"model" id=3D"/rMvbew=3D" role=3D"tab">Model<=
+/button></li></ul><div aria-hidden=3D"false" aria-labelledby=3D"/rMvbew=3D"=
+ data-name=3D"modelPanel" id=3D"2AzQ7gA=3D" role=3D"tabpanel" tabindex=3D"0=
+"><div class=3D"model-box"><span class=3D"model"><span class=3D""><button a=
+ria-expanded=3D"true" class=3D"model-box-control"><span class=3D"pointer"><=
+span class=3D"model-title"><span class=3D"model-hint">http://127.0.0.1:8000=
+/swagger/?format=3Dopenapi#/definitions/UserRegister</span><span class=3D"m=
+odel-title__text">UserRegister</span></span></span><span class=3D"model-tog=
+gle"></span></button><span class=3D"brace-open object">{</span><span class=
+=3D"model-jump-to-path"></span><span class=3D"inner-object"><table class=3D=
+"model"><tbody><tr class=3D"property-row required"><td>username<span class=
+=3D"star">*</span></td><td><span class=3D"model"><span class=3D"prop"><span=
+ class=3D"prop-type">string</span><span class=3D"property primitive"><br>ti=
+tle: =D0=98=D0=BC=D1=8F =D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=
+=82=D0=B5=D0=BB=D1=8F</span><span class=3D"property primitive"><br>pattern:=
+ ^[\w.@+-]+$</span><span class=3D"property primitive"><br>maxLength: 150</s=
+pan><span class=3D"property primitive"><br>minLength: 1</span><div class=3D=
+"markdown"><p>=D0=9E=D0=B1=D1=8F=D0=B7=D0=B0=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=
+=D0=BE=D0=B5 =D0=BF=D0=BE=D0=BB=D0=B5. =D0=9D=D0=B5 =D0=B1=D0=BE=D0=BB=D0=
+=B5=D0=B5 150 =D1=81=D0=B8=D0=BC=D0=B2=D0=BE=D0=BB=D0=BE=D0=B2. =D0=A2=D0=
+=BE=D0=BB=D1=8C=D0=BA=D0=BE =D0=B1=D1=83=D0=BA=D0=B2=D1=8B, =D1=86=D0=B8=D1=
+=84=D1=80=D1=8B =D0=B8 =D1=81=D0=B8=D0=BC=D0=B2=D0=BE=D0=BB=D1=8B @/./+/-/_=
+.</p>
 </div></span></span></td></tr><tr class=3D"property-row required"><td>passw=
 ord<span class=3D"star">*</span></td><td><span class=3D"model"><span class=
 =3D"prop"><span class=3D"prop-type">string</span><span class=3D"property pr=
@@ -1068,13 +1082,13 @@ se-col_description">Description</td></tr></thead><tbody><tr class=3D"respon=
 se " data-code=3D"201"><td class=3D"response-col_status">201</td><td class=
 =3D"response-col_description"><div class=3D"response-col_description__inner=
 "></div><div class=3D"model-example"><ul class=3D"tab" role=3D"tablist"><li=
- class=3D"tabitem" role=3D"presentation"><button aria-controls=3D"6nqFqwU=
+ class=3D"tabitem" role=3D"presentation"><button aria-controls=3D"ZKKfHjA=
 =3D" aria-selected=3D"false" class=3D"tablinks" data-name=3D"example" id=3D=
-"xWnqdMs=3D" role=3D"tab">Example Value</button></li><li class=3D"tabitem a=
-ctive" role=3D"presentation"><button aria-controls=3D"5gigJsE=3D" aria-sele=
-cted=3D"true" class=3D"tablinks" data-name=3D"model" id=3D"s2D15XI=3D" role=
+"Fr2eqhY=3D" role=3D"tab">Example Value</button></li><li class=3D"tabitem a=
+ctive" role=3D"presentation"><button aria-controls=3D"a0nS5XI=3D" aria-sele=
+cted=3D"true" class=3D"tablinks" data-name=3D"model" id=3D"P3QIEGo=3D" role=
 =3D"tab">Model</button></li></ul><div aria-hidden=3D"false" aria-labelledby=
-=3D"s2D15XI=3D" data-name=3D"modelPanel" id=3D"5gigJsE=3D" role=3D"tabpanel=
+=3D"P3QIEGo=3D" data-name=3D"modelPanel" id=3D"a0nS5XI=3D" role=3D"tabpanel=
 " tabindex=3D"0"><div class=3D"model-box"><span class=3D"model"><span class=
 =3D""><button aria-expanded=3D"true" class=3D"model-box-control"><span clas=
 s=3D"pointer"><span class=3D"model-title"><span class=3D"model-hint">http:/=
@@ -1234,14 +1248,19 @@ ss=3D"wrapper"><section class=3D""></section></div></section></div>
 
            =20
                =20
+                    <div class=3D"hello">
+                        <span class=3D"django-session">Django</span> <span =
+class=3D"label label-primary">admin</span>
+                    </div>
+               =20
            =20
 
            =20
                 <div class=3D"btn authorize">
                     <a id=3D"auth" class=3D"header__btn" href=3D"http://127=
-.0.0.1:8000/accounts/login/?next=3D/swagger/" data-sw-translate=3D"">
+.0.0.1:8000/accounts/logout/?next=3D/swagger/" data-sw-translate=3D"">
                        =20
-                            Django Login
+                            Django Logout
                        =20
                     </a>
                 </div>
@@ -1253,10 +1272,10 @@ ss=3D"wrapper"><section class=3D""></section></div></section></div>
 
 
 </body></html>
-------MultipartBoundary--eyymtW3vjDikGO62TR71AJHJjNoxEFmoOEqAhXBRxa----
+------MultipartBoundary--zAXzl0pogmjZaSPA1J8m28jpkq1HRrDEq0XJmJ7ryZ----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-ac4b45f7-d876-4bf1-b15c-e4bbb3cecaee@mhtml.blink
+Content-Location: cid:css-76371611-b8b0-45e0-96e8-64fa6860bb8c@mhtml.blink
 
 @charset "utf-8";
 
@@ -1267,7 +1286,7 @@ Content-Location: cid:css-ac4b45f7-d876-4bf1-b15c-e4bbb3cecaee@mhtml.blink
 
 .auth-wrapper .authorize { animation-duration: 0.001s; animation-name: insQ=
 _100; }
-------MultipartBoundary--eyymtW3vjDikGO62TR71AJHJjNoxEFmoOEqAhXBRxa----
+------MultipartBoundary--zAXzl0pogmjZaSPA1J8m28jpkq1HRrDEq0XJmJ7ryZ----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: http://127.0.0.1:8000/static/drf-yasg/style.css
@@ -1305,7 +1324,7 @@ wrap; vertical-align: baseline; border-radius: 0.25em; }
 px; }
 
 svg.swagger-defs { position: absolute; width: 0px; height: 0px; }
-------MultipartBoundary--eyymtW3vjDikGO62TR71AJHJjNoxEFmoOEqAhXBRxa----
+------MultipartBoundary--zAXzl0pogmjZaSPA1J8m28jpkq1HRrDEq0XJmJ7ryZ----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: http://127.0.0.1:8000/static/drf-yasg/swagger-ui-dist/swagger-ui.css
@@ -6021,4 +6040,4 @@ amily: monospace; font-size: 14px; font-weight: 600; padding: 5px 7px; }
 
 .swagger-ui .markdown pre > code, .swagger-ui .renderedMarkdown pre > code =
 { display: block; }
-------MultipartBoundary--eyymtW3vjDikGO62TR71AJHJjNoxEFmoOEqAhXBRxa------
+------MultipartBoundary--zAXzl0pogmjZaSPA1J8m28jpkq1HRrDEq0XJmJ7ryZ------
