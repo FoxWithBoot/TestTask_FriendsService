@@ -3,4 +3,4 @@
 
 # Описание REST интерфейса
 См. также файлы FriendsService API (.pdf/.mhtml).
-![image](https://user-images.githubusercontent.com/63101721/236774288-b22d4c2e-c1c5-437e-b37c-7b92fec142b4.png)
+![image](https://user-images.githubusercontent.com/63101721/236899935-c16b3366-62ef-4a21-9fc8-ea5374e42aff.png)
