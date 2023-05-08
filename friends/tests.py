@@ -1,7 +1,3 @@
-import json
-
-from django.contrib.auth import get_user_model
-from django.db.models import Q
 from django.test import TestCase
 from parameterized import parameterized
 from rest_framework.reverse import reverse
@@ -10,7 +6,7 @@ from .models import Friendship, User
 from .serializers import UserSerializer
 
 
-class FriendshipManagerTests(TestCase):
+class FriendshipTests(TestCase):
     @classmethod
     def setUpTestData(cls):
         u1 = User.objects.create_user(username="Иван", password='123')
@@ -35,8 +31,11 @@ class FriendshipManagerTests(TestCase):
 
     @parameterized.expand([
         ({'username': 'Петр', 'password': '123'}, 201, '', 6),
-        ({'username': 'Петр'*150, 'password': '123'}, 400, '{"username":["Убедитесь, что это значение содержит не более 150 символов."]}', 5),
-        ({'username': 'Петр\^/', 'password': '12^\/3'}, 400, '{"username":["Введите правильное имя пользователя. Оно может содержать только буквы, цифры и знаки @/./+/-/_."]}', 5),
+        ({'username': 'Петр' * 150, 'password': '123'}, 400,
+         '{"username":["Убедитесь, что это значение содержит не более 150 символов."]}', 5),
+        ({'username': 'Петр\^/', 'password': '12^\/3'}, 400,
+         '{"username":["Введите правильное имя пользователя. Оно может содержать только буквы, цифры и знаки @/./+/-/_."]}',
+         5),
         ({}, 400, '{"username":["Обязательное поле."],"password":["Обязательное поле."]}', 5),
     ])
     def test_register(self, data, status, response_body, count):
@@ -93,7 +92,8 @@ class FriendshipManagerTests(TestCase):
         (("Иван", '123'), {"friend2": 15}, 400, 'Недопустимый Первичный Ключ "15" - Объект Не Существует.', 12),
         (("Иван", '123'), {"friend2": -15}, 400, 'Недопустимый Первичный Ключ "-15" - Объект Не Существует.', 12),
         (("Иван", '123'), {"friend2": ''}, 400, 'Это Поле Не Может Быть Пустым.', 12),
-        (("Иван", '123'), {"friend2": 'None'}, 400, 'Некорректный Тип. Ожидалось Значение Первичного Ключа, Получен Str.', 12),
+        (("Иван", '123'), {"friend2": 'None'}, 400,
+         'Некорректный Тип. Ожидалось Значение Первичного Ключа, Получен Str.', 12),
         (("Иван", '123'), {}, 400, 'Обязательное Поле.', 12),
     ])
     def test_send_friendship(self, login_pass, data, status, response_body, count):
@@ -140,7 +140,7 @@ class FriendshipManagerTests(TestCase):
     def test_list_friend_requests(self, login_pass, filter_count, status, response_body, count):
         if login_pass:
             self.client.login(username=login_pass[0], password=login_pass[1])
-        url = reverse('friendship-list')+'?status=%s' % filter_count
+        url = reverse('friendship-list') + '?status=%s' % filter_count
         response = self.client.get(url)
         self.assertEqual(response.status_code, status)
         if status == 200:

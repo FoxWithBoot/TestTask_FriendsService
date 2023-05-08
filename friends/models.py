@@ -1,17 +1,5 @@
-from django.contrib.auth.base_user import AbstractBaseUser
 from django.contrib.auth.models import AbstractUser
-from django.contrib.auth.validators import UnicodeUsernameValidator
-from django.db import models, IntegrityError, transaction
-from django.utils import timezone
-
-
-# class User(AbstractBaseUser, PermissionsMixin):
-#     username = models.CharField(max_length=150, unique=True, validators=[UnicodeUsernameValidator()])
-#     friends = models.ManyToManyField('self', through="Friendship", symmetrical=True)
-#     is_active = models.BooleanField(default=True)
-#     date_joined = models.DateTimeField(default=timezone.now)
-#
-#     USERNAME_FIELD = "username"
+from django.db import models
 
 OUTGOING_REQUEST = -1
 FRIEND = 0
@@ -25,6 +13,7 @@ STATUS_STR = {
 
 
 class Friendship(models.Model):
+    """Заявка в друзья"""
     STATUS_CHOICES = {
         (OUTGOING_REQUEST, "Исходящая заявка"),
         (FRIEND, "Друзья"),
@@ -33,8 +22,8 @@ class Friendship(models.Model):
 
     friend1 = models.ForeignKey("User", on_delete=models.CASCADE, related_name='friend1')
     friend2 = models.ForeignKey("User", on_delete=models.CASCADE, related_name='friend2')
-    status = models.IntegerField(choices=STATUS_CHOICES)
-    send_date = models.DateTimeField(auto_now=True)
+    status = models.IntegerField("Статус заявки в друзья", choices=STATUS_CHOICES)
+    send_date = models.DateTimeField("Дата и время отправки/принятия заявки", auto_now=True)
 
     class Meta:
         verbose_name = "Дружба"
@@ -45,27 +34,25 @@ class Friendship(models.Model):
         return "%s - %s: %s" % (self.friend1.username, self.friend2.username, self.status)
 
     def accept_friendship(self):
-        #if self.status == INCOMING_REQUEST and self.friend1 == user:
+        """Принять заявку в друзья"""
         Friendship.objects.filter(friend1__in=[self.friend1, self.friend2],
-                                friend2__in=[self.friend2, self.friend1]).update(status=FRIEND)
+                                  friend2__in=[self.friend2, self.friend1]).update(status=FRIEND)
         return Friendship.objects.get(friend1=self.friend1, friend2=self.friend2, status=FRIEND)
-        #return Friendship.objects.get(friend1=self.friend1, friend2=self.friend2, status=FRIEND)
-        #print("Не та заявка")
 
     def reject_friendship(self):
-        #if self.status == INCOMING_REQUEST and self.friend1 == user:
+        """Отклонить заявку в друзья"""
         Friendship.objects.filter(friend1__in=[self.friend1, self.friend2],
-                                      friend2__in=[self.friend2, self.friend1]).delete()
-        #print("Не та заявка")
+                                  friend2__in=[self.friend2, self.friend1]).delete()
 
 
 class User(AbstractUser):
-
+    """Пользователь"""
     first_name = None
     last_name = None
     EMAIL_FIELD = None
 
     def add_request_friendship(self, user):
+        """Отправить заявку в друзья"""
         if Friendship.objects.filter(friend1=self, friend2=user, status=FRIEND):
             return Friendship.objects.get(friend1=self, friend2=user, status=FRIEND), 304
         if Friendship.objects.filter(friend1=self, friend2=user, status=OUTGOING_REQUEST):
@@ -78,24 +65,22 @@ class User(AbstractUser):
         return r, 201
 
     def delete_friend(self, user):
-        # if self == user:
-        #     print('Сам себе не друг?')
-        #     return
+        """Удалить из друзей"""
         friendships = Friendship.objects.filter(friend1__in=[self, user], friend2__in=[user, self], status=FRIEND)
         if friendships:
             friendships.delete()
-        # return
-        # print('Да вы и так не друзья')
 
     def get_users_friends(self, is_friend=FRIEND):
+        """Получить список друзей или список пользователей, которые отправили/получили заявки от пользователя"""
         friends_id = Friendship.objects.filter(friend1=self, status=is_friend).values_list("friend2__id", flat=True)
         return User.objects.filter(id__in=friends_id)
 
     def get_friendship_request(self, in_out):
+        """Получить список заявок в друзья (полученных/отправленных/принятых)"""
         return Friendship.objects.filter(friend1=self, status=in_out)
 
     def get_friendship_status(self, user):
+        """Получить статус дружбы с пользователем"""
         qs = Friendship.objects.filter(friend1=self, friend2=user)
         if qs.exists():
             return qs[0].status
-

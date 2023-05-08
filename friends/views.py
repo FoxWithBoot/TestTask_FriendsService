@@ -1,17 +1,13 @@
-from django.db import IntegrityError
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import get_object_or_404
 from django_filters.rest_framework import DjangoFilterBackend
-from drf_yasg import openapi
-from drf_yasg.utils import swagger_auto_schema, swagger_serializer_method
-from rest_framework import generics, mixins, viewsets, serializers, status
+from drf_yasg.utils import swagger_auto_schema
+from rest_framework import generics, mixins, viewsets, status
 from rest_framework.exceptions import ErrorDetail
 from rest_framework.permissions import IsAuthenticated, AllowAny
 from rest_framework.response import Response
-from rest_framework.views import APIView
 
 from .models import Friendship, User, STATUS_STR
-from .serializers import UserSerializer, FriendshipSerializer, FriendshipStatusSerializer, ErrorSerializer, \
-    UserRegisterSerializer
+from .serializers import UserSerializer, FriendshipSerializer, FriendshipStatusSerializer, UserRegisterSerializer
 
 
 class RegisterView(generics.CreateAPIView):
@@ -36,10 +32,7 @@ class FriendsViewSet(mixins.ListModelMixin,
 
     @swagger_auto_schema(responses={status.HTTP_200_OK: FriendshipSerializer(),
                                     status.HTTP_201_CREATED: FriendshipSerializer(),
-                                    status.HTTP_304_NOT_MODIFIED: FriendshipSerializer(),})
-                                    # status.HTTP_403_FORBIDDEN: '{"detail": "Учетные Данные Не Были Предоставлены."}',
-                                    # status.HTTP_422_UNPROCESSABLE_ENTITY: '{"detail": "Нельзя Отправить Заявку Самому Себе."}',
-                                    # status.HTTP_400_BAD_REQUEST: {"friend2": ""}})
+                                    status.HTTP_304_NOT_MODIFIED: FriendshipSerializer()})
     def create(self, request, *args, **kwargs):
         """Отправить заявку в друзья"""
         ser = FriendshipSerializer(data=request.data)
@@ -94,8 +87,9 @@ class FriendshipViewSet(mixins.ListModelMixin,
         if friendship.friend1 == request.user and friendship.status == 1:
             friendship = friendship.accept_friendship()
             return Response(FriendshipSerializer(friendship).data, status=status.HTTP_200_OK)
-        return Response({"detail": ErrorDetail("Попытка доступа к чужой или неактуальной заявке.", code='not_your_request')},
-                        status=status.HTTP_400_BAD_REQUEST)
+        return Response(
+            {"detail": ErrorDetail("Попытка доступа к чужой или неактуальной заявке.", code='not_your_request')},
+            status=status.HTTP_400_BAD_REQUEST)
 
     def destroy(self, request, *args, **kwargs):
         """Отклонить заявку в друзья"""
@@ -103,9 +97,9 @@ class FriendshipViewSet(mixins.ListModelMixin,
         if friendship.friend1 == request.user and friendship.status == 1:
             friendship.reject_friendship()
             return Response(status=status.HTTP_204_NO_CONTENT)
-        return Response({"detail": ErrorDetail("Попытка доступа к чужой или неактуальной заявке.", code='not_your_request')},
-                        status=status.HTTP_400_BAD_REQUEST)
+        return Response(
+            {"detail": ErrorDetail("Попытка доступа к чужой или неактуальной заявке.", code='not_your_request')},
+            status=status.HTTP_400_BAD_REQUEST)
 
     def get_queryset(self):
         return Friendship.objects.filter(friend1=self.request.user)
-

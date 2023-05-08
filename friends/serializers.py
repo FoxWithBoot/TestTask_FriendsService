@@ -22,12 +22,8 @@ class UserSerializer(serializers.ModelSerializer):
 class FriendshipStatusSerializer(serializers.Serializer):
     friendship_status = serializers.CharField(read_only=True)
 
-class ErrorSerializer(serializers.Serializer):
-    detail = serializers.CharField(read_only=True)
 
 class FriendshipSerializer(serializers.ModelSerializer):
-    #friend2 = serializers.IntegerField(min_value=1, required=True, allow_null=False)
-    #status = serializers.IntegerField(read_only=True)
 
     class Meta:
         model = Friendship
